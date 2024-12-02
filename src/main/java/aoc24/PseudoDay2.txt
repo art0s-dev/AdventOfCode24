@@ -33,10 +33,7 @@ isSave(List<Integer> level){
 }
 
 
-List<List<Integer>> levellist = List.of(
-	List.of(7 6 4 2 1),
-	List.of(1 2 7 8 9)
-);
+
 
 int saveLevels = levellist.map(level -> isSave(level))
 	.toList()
